@@ -1,15 +1,22 @@
 .navbar{
+    position: fixed;
+    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 90px;
+    height: 70px;
     background-color: black;
     border-bottom: 1px solid darkgray;
+
 }
-.navbar h1{
+.title{
+    display: flex;
+    align-items: center;
+}
+.title h1{
     color: white;
 }
-.navbar h3{
+.title h3{
     color: red;
 }
